@@ -1,0 +1,50 @@
+bg-color = skyblue
+
+*
+  margin 0
+  padding 0
+  box-sizing border-box
+
+.main
+  display flex
+  flex-direction column
+  justify-content space-evenly
+  align-items center
+  width 360px
+  height @width
+  margin 100px auto
+  border 4px solid black
+  border-radius 10px
+  background-color bg-color
+
+.main .game-stage
+  position relative
+  width 304px
+  height @width
+  border 2px solid black
+  
+#snake div
+  position absolute
+  top 0
+  left 0
+  width 10px
+  height 10px
+  border 1px solid bg-color
+  background-color black
+
+#food
+  position absolute
+  top 140px
+  left 40px
+  width 10px
+  height @width
+  border 1px solid bg-color
+  background-color red
+
+.main .score-panel
+  display flex 
+  justify-content space-between
+  width 300px
+
+
+

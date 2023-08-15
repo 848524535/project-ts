@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>贪食蛇</title>
+  <style>
+    #snake .snake-head {
+      background-color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="game-stage">
+      <div id="snake">
+        <div class="snake-head"></div>
+      </div>
+      <div id="food"></div>
+    </div>
+    <div class="score-panel">
+      <div>score:<span id="panel-score">0</span></div>
+      <button class="start">开始游戏</button>
+      <div>level:<span id="panel-level">1</span></div>
+    </div>
+  </div>
+</body>
+
+</html>
+<!--
+  结构表现行为 三者分离
+-->
